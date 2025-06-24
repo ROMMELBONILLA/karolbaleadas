@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detalle - Baleadas</title>
+  <link rel="stylesheet" href="css/framework7.bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+
+<div class="panel panel-left panel-cover theme-dark">
+  <div class="view">
+    <div class="page">
+      <div class="page-content">
+        <div class="block-title">Menú</div>
+        <div class="list">
+          <ul>
+            <li>
+              <a href="index.html" class="item-link panel-close">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Inicio</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="listado.html" class="item-link panel-close">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Categorías</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="item-link panel-close">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Favoritos</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="perfil.html" class="item-link panel-close">
+                <div class="item-content">
+                  <div class="item-inner">
+                    <div class="item-title">Perfil</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="view view-main view-init">
+    <div class="page">
+      <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+			<img src="img/logo.png" alt="Logo de Baleadas Karol" class="logo-principal">
+          <div class="title">Baleadas Karol</div>
+          <div class="right">
+            <a href="#" class="link panel-open" data-panel="left">
+              <i class="material-icons">menu</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-content">
+        <div class="block">
+          <p class="chip color-green">Categoría: Platos Principales</p>
+          <h2>Baleadas</h2>
+          <p><strong>Precio:</strong> L.25</p>
+          <p>Las baleadas son una joya de la gastronomía hondureña. Hechas con una tortilla de harina suave y caliente, rellenas de frijoles refritos, mantequilla y queso rallado. También puedes añadir huevo, aguacate o carne para un sabor aún más completo.</p>
+        </div>
+
+        <div class="swiper swiper-init" data-pagination='{"el": ".swiper-pagination"}'>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/baleadas-hondurenas.jpg" style="width:100%; border-radius: 12px;"></div>
+            <div class="swiper-slide"><img src="img/baleada_2.jpg" style="width:100%; border-radius: 12px;"></div>
+            <div class="swiper-slide"><img src="img/baleada4.jpg" style="width:100%; border-radius: 12px;"></div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="block">
+          <a href="#" class="button button-fill color-green">Agregar al pedido</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/framework7.bundle.min.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

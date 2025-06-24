@@ -1,0 +1,102 @@
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f5;
+}
+
+.hero {
+  background: linear-gradient(to right, #d32f2f, #f44336);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 0 0 30px 30px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 16px;
+  opacity: 0.95;
+}
+
+.cards-list {
+  padding: 15px;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #fffaf9;
+}
+
+.card .date {
+  font-weight: 600;
+  color: #e53935;
+  margin-bottom: 5px;
+}
+
+.block-title {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #d84315;
+}
+
+.navbar-inner .title {
+  font-weight: bold;
+  color: #c62828;
+}
+
+.block-title {
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-inner .title {
+  font-weight: bold;
+  color: #c62828;
+}
+.button{
+	background: #c62828;
+}
+.perfil{
+ width: 200px;        
+  height: 200px;
+  border-radius: 50%;   
+  object-fit: cover;   
+  border: 3px solid #c62828; 
+}
+.chip{
+	background:  ;
+}
+.logo-principal {
+  width: 50px;
+  border-radius: 10px;
+}
